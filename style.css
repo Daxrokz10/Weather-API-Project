@@ -1,0 +1,24 @@
+body.bg-base {
+  background: #3d3d3d;
+  transition: background 0.5s ease;
+}
+
+body.sunny {
+  background: linear-gradient(to bottom right, #f9d423, #ff4e50);
+}
+
+body.cloudy {
+  background: linear-gradient(to bottom right, #37474f, #263238);
+}
+
+body.night {
+  background: linear-gradient(to bottom right, #0f2027, #203a43, #2c5364);
+}
+
+.glass-card {
+  backdrop-filter: blur(15px);
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  max-width: 400px;
+  width: 90%;
+}
